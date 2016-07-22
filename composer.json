@@ -1,6 +1,6 @@
 {
   "name": "algorit/addressing",
-  "description": "A addressing service",
+  "description": "Just another brazilian postalcode to address service",
   "type": "library",
   "license": "MIT",
   "authors": [

@@ -1,7 +1,8 @@
 Addressing
 =================
-[![Build Status](https://travis-ci.org/gabrielkoerich/addressing.svg?branch=master)](https://travis-ci.org/gabrielkoerich/service-manager)
+[![Build Status](https://travis-ci.org/gabrielkoerich/addressing.svg?branch=master)](https://travis-ci.org/gabrielkoerich/addressing)
 
+Just another brazilian postalcode to address service
 
 ## License
 
