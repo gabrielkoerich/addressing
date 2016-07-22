@@ -1,0 +1,34 @@
+{
+  "name": "algorit/addressing",
+  "description": "A addressing service",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gabriel Koerich", "email": "gabriel@algorit.com.br"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "algorit/service-manager": "~0.1",
+    "guzzlehttp/guzzle": "~5.3|~6.0",
+    "illuminate/support": "5.1|5.2|5.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8|^5.0",
+    "mockery/mockery": "~0.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Algorit\\Addressing\\": "src"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests"
+    ]
+  }
+}
