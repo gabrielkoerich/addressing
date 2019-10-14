@@ -3,10 +3,12 @@
 if (! function_exists('int_to_postalcode')) {
     function int_to_postalcode($int)
     {
-        $start = substr($int, 0, 5);
-        $end = substr($int, 5, 3);
+        if ($int) {
+            $start = substr($int, 0, 5);
+            $end = substr($int, -3);
 
-        return $start . '-' . $end;
+            return $start . '-' . $end;
+        }
     }
 }
 
