@@ -4,6 +4,8 @@ if (! function_exists('int_to_postalcode')) {
     function int_to_postalcode($int)
     {
         if ($int) {
+            $int = preg_replace('/[^0-9]/', '', $int);
+            
             $start = substr($int, 0, 5);
             $end = substr($int, -3);
 
